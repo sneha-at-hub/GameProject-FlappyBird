@@ -1,0 +1,17 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Ensure body covers the full height */
+    overflow: hidden; /* Disable scrolling for the body */
+}
+
+#board {
+    background-image: url("./src/new.jpeg");
+    background-size: cover; /* Ensure the background image covers the entire area */
+    background-position: center; /* Center the background image */
+    height: 100vh; /* Cover the full height of the viewport */
+   
+    margin: 0 auto; /* Center the canvas horizontally */
+    overflow: hidden; /* Disable scrolling for the board */
+}
